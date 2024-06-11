@@ -1,0 +1,111 @@
+/* FooterBanner.css */
+
+.footer-banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:#a8f0a8 ;
+  }
+  
+  .footer-newsletter {
+    width: 100%;
+    max-width: 300px; /* Adjust width as needed */
+    margin-bottom: 20px;
+  }
+  
+  .footer-newsletter h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-newsletter form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer-newsletter input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  .footer-newsletter button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer-finwill {
+    width: 100%;
+    max-width: 300px; /* Adjust width as needed */
+    margin-bottom: 20px;
+  }
+  
+  .footer-finwill h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-finwill p {
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
+  .footer-company {
+    width: 100%;
+    max-width: 300px; /* Adjust width as needed */
+    margin-bottom: 20px;
+  }
+  
+  .footer-company h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-company ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .footer-company ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-company ul li a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .footer-incubation {
+    width: 100%;
+    max-width: 400px; /* Adjust width as needed */
+    margin-bottom: 20px;
+  }
+  
+  .footer-incubation h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-email {
+    width: 100%;
+    max-width: 300px; /* Adjust width as needed */
+    margin-bottom: 20px;
+  }
+  
+  .footer-email h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-email p {
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
