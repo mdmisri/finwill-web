@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mdmisri/finwill-web/static/css/main.ee2ca4e7.css",
+    "main.js": "/mdmisri/finwill-web/static/js/main.475e1ad3.js",
+    "static/js/453.2edb293d.chunk.js": "/mdmisri/finwill-web/static/js/453.2edb293d.chunk.js",
+    "static/media/edventure park.jpg": "/mdmisri/finwill-web/static/media/edventure park.cbbb3b209ab7b2281b58.jpg",
+    "index.html": "/mdmisri/finwill-web/index.html",
+    "main.ee2ca4e7.css.map": "/mdmisri/finwill-web/static/css/main.ee2ca4e7.css.map",
+    "main.475e1ad3.js.map": "/mdmisri/finwill-web/static/js/main.475e1ad3.js.map",
+    "453.2edb293d.chunk.js.map": "/mdmisri/finwill-web/static/js/453.2edb293d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee2ca4e7.css",
+    "static/js/main.475e1ad3.js"
+  ]
+}
