@@ -1,62 +1,83 @@
-/* ProcessBanner.css */
+/* General reset and box-sizing for better styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .process-banner-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background-color: #FFFFFF; /* Change to your desired background color */
-  }
-  
-  .process-banner-content {
-    display: flex;
-    align-items: center;
-    max-width: 1200px;
-    width: 100%;
-    text-align: left;
-  }
-  
-  .process-text-container {
-    max-width: 600px;
-    margin-right: 20px;
-  }
-  
-  .process-main-text {
-    font-size: 2.5em;
-    font-weight: bold;
-    color: #000;
-    margin: 20px 0;
-  }
-  
-  .highlight-text {
-    color: #007BFF; /* Change to your desired highlight color */
-  }
-  
-  .process-steps {
-    font-size: 1.2em;
-    color: #666;
-    margin-bottom: 20px;
-    list-style-type: decimal;
-  }
-  
-  .process-banner-button {
-    background-color: #007BFF;
-    color: #fff;
-    font-size: 1em;
-    font-weight: bold;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 20px;
-  }
-  
-  .process-banner-button:hover {
-    background-color: #0056b3;
-  }
-  
-  .process-banner-image {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+}
+
+.process-banner-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.process-text-container {
+  flex: 1;
+  padding: 40px;
+}
+
+.process-main-text {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.highlight-text {
+  color: #ff7f50;
+}
+
+.process-steps {
+  list-style-type: decimal;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.process-steps li {
+  margin-bottom: 10px;
+}
+
+.process-banner-button {
+  padding: 10px 20px;
+  background-color: #ff7f50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.process-banner-button:hover {
+  background-color: #ff5733;
+}
+
+.process-banner-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.process-banner-image {
+  max-width: 100%;
+  height: auto;
+  border-left: 1px solid #e0e0e0;
+}
